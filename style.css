@@ -1,0 +1,265 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+.top {
+    display: flex;
+    text-align: center;
+    background-color: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+    border-radius: 12px;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 10px;
+}
+
+.imgtop {
+    width: 140px;
+    height: 90px;
+    border-radius: 20px;
+    transition: 2s;
+}
+
+.imgtop:hover {
+    transform: translate(-100px);
+    transform: translate(100px);
+}
+
+.info {
+    width: 120px;
+    height: 90px;
+    position: absolute;
+    top: 5px;
+    right: 5px;
+
+}
+
+.osnimg {
+    display: flex;
+    margin: 8px auto;
+    height: 480px;
+    justify-content: center;
+    width: 99%;
+}
+
+.osn {
+    margin: 5px;
+    border-radius: 12px;
+    overflow: hidden;
+    transition: 1s;
+}
+
+.osn:hover {
+    transform: scale(1.3);
+}
+
+.order form {
+    width: 600px;
+    margin: 0 auto;
+    border-radius: 24px;
+    bottom: 2px solid #333;
+    padding: 10px 10px;
+}
+
+.cw{
+    display: flex;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 10px;
+}
+
+.cw2{
+    display: flex;
+    text-align: center;
+    color: #0d82b8;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin-top: 0 auto;
+}
+
+.field {
+    margin-bottom: 15px;
+}
+
+.submit-btn {
+    display: block;
+    width: 240px;
+    margin-top: 15px;
+    margin: 0 auto;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #0d82b8;
+    color: white;
+    transition: 0,5s;
+}
+
+.input {
+    width: 500px;
+    border-radius: 8px;
+    padding: 12px;
+    border: none;
+    background-color: white;
+    color: black;
+    font-size: 18px;
+}
+
+.vid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    margin: 10px;
+}
+
+.list {
+    display: flex;
+    margin: 8px;
+    height: 325px;
+    justify-content: center;
+    width: 100%;
+    position: relative;
+}
+
+.card {
+    margin: 25px;
+    border-radius: 12px;
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: 1s;
+}
+
+.card:hover {
+    transform: translate(0px, 25px);
+    transform: translate(0px, -25px);
+}
+
+.bt {
+    display: block;
+    width: 240px;
+    margin-top: 15px auto;
+    padding: 12px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: #0d82b8;
+    color: white;
+}
+
+.bt1 {
+    display: flex;
+    margin: 8px;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    text-align: center;
+    color: #000000;
+    width: 270px;
+}
+
+.submit-btn:hover {
+    background-color: #3d5dc7;
+}
+
+.records-container {
+    margin: 10px auto;
+    border-radius: 12px;
+    justify-content: center;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.records-container img{
+    width: 25%;
+    height: 25%;
+}
+
+.records-container .zapret{
+    width: 30%;
+    height: 30%;
+}
+
+
+.bt2 {
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+    color: transparent;
+    width: 150px;
+    height: 150px;
+}
+
+.bt3 {
+    display: flex;
+    text-decoration: none;
+    margin-top: 80px;
+}
+
+.bt4 {
+    position: absolute;
+    display: flex;
+    text-decoration: none;
+}
+
+.sosh-it {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.sosh-i {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    margin-top: 40px;
+}
+
+.cw3{
+    display: flex;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+footer {
+    color: black;
+    margin-top: 20px;
+    text-align: end;
+}
+
+@media (max-width: 1280px) {
+    .top, .osnimg {
+        flex-direction: column;
+        padding: 10px;
+    }
+    
+    .input, .submit-btn, .bt {
+        font-size: 16px;
+    }
+    
+    .submit-btn {
+        width: 104px;
+    }
+
+    .osnimg {
+        width: 280px;
+    }
+
+    .card img {
+        display: none;
+    }
+}

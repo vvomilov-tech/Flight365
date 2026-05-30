@@ -1,0 +1,39 @@
+.rknerror {
+    color: red;
+    text-align: center;
+    position: relative;
+}
+
+.cw2{
+    display: flex;
+    text-align: center;
+    color: rgb(255, 0, 0);
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+body {
+    background-image: url(https://media.licdn.com/dms/image/v2/C5112AQEw1fXuabCTyQ/article-inline_image-shrink_1500_2232/article-inline_image-shrink_1500_2232/0/1581099611064?e=1780531200&v=beta&t=MSAbhtIZ5r1mKQN3HGwLP7NSALwGzWr_CBh_CPsf-2o);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.erimg {
+    border-radius: 12px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.erimg img {
+    width: 80px;
+    height: 100%;
+}
+
+footer {
+    color: black;
+    margin-top: 44%;
+    text-align: end;
+}
